@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    position: fixed;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+  
+}
+
+ul li {
+    list-style-type: none;
+    padding: 7px 15px;
+}
+
+.page-markap a {
+    padding: 7px 15px;
+}
+
+ul li:hover, 
+.page-markap a:hover {
+    background-color: lightgray;
+}
